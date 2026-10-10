@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="34" viewBox="0 0 1000 34" role="img" aria-label="ACADEMIC PROJECTS (BIG DATA · ML · BASES DE DONNÉES)">
+<circle cx="8" cy="17" r="4" fill="#a78bfa"><animate attributeName="opacity" values="1;.25;1" dur="2s" repeatCount="indefinite"/></circle>
+<text x="24" y="22" font-family="'SF Mono','Fira Code',Consolas,'Liberation Mono',monospace" font-size="13" letter-spacing="3" fill="#a78bfa">ACADEMIC PROJECTS (BIG DATA · ML · BASES DE DONNÉES)</text>
+<path d="M510 17 H996" stroke="#223a61" stroke-width="1.5" stroke-dasharray="2 6" stroke-linecap="round"/>
+</svg>

@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
   <img src="assets/banner.svg" alt="Abdesselam Aimen: AI & Deep Learning Researcher · Computer Vision Engineer · Medical Imaging · Graph Neural Networks" width="100%">
 </div>
 
@@ -81,6 +81,25 @@ flowchart LR
 </tr>
 </table>
 
+<br>
+
+<img src="assets/sub-academic.svg" alt="Academic Projects (Big Data, ML, Base de Données)" width="100%">
+
+<table>
+<tr>
+<td width="50%" align="center">
+  <a href="https://github.com/AimenAbdesslame/IASD-university-projects-Labs-S1"><img src="assets/c-academic-s1.svg" alt="IASD Master's S1 Academic Labs: Big Data, ML & Databases" width="100%"></a><br>
+  <a href="https://github.com/AimenAbdesslame/IASD-university-projects-Labs-S1"><img src="https://img.shields.io/badge/See_Academic_Projects_S1-Big_Data_·_ML_·_Bases_de_Données-a78bfa?style=for-the-badge&logo=github&logoColor=white" alt="See Academic Projects S1"></a>
+</td>
+<td width="50%" align="center">
+  <a href="https://github.com/AimenAbdesslame/IASD-university-projects-Labs-S2"><img src="assets/c-academic-s2.svg" alt="IASD Master's S2 Academic Labs: Deep Learning & Computer Vision" width="100%"></a><br>
+  <a href="https://github.com/AimenAbdesslame/IASD-university-projects-Labs-S2"><img src="https://img.shields.io/badge/See_Academic_Projects_S2-Deep_Learning_·_Vision_·_Optimization-38bdf8?style=for-the-badge&logo=github&logoColor=white" alt="See Academic Projects S2"></a>
+</td>
+</tr>
+</table>
+
+<br>
+
 <img src="assets/sub-web.svg" alt="Also shipped: web and product" width="100%">
 
 <table>
@@ -143,7 +162,7 @@ $ traceroute --story aimen
 <img src="assets/h-04.svg" alt="04 Stack" width="100%">
 
 <div align="center">
-  <img src="assets/marquee.svg" alt="Skills: Python, PyTorch, C++, TypeScript, FastAPI, Docker, OpenCV, React, NumPy, Scikit-learn, W&B and more" width="100%">
+  <img src="assets/marquee.svg" alt="Skills: AI Engineering, Deep Learning, PyTorch, Transformers, LLMs, Reinforcement Learning, FastAPI, Docker, Power BI, Scikit-learn, and more" width="100%">
 </div>
 
 <br>
@@ -151,27 +170,39 @@ $ traceroute --story aimen
 <table>
 <tr>
 <td width="170"><b>Languages</b></td>
-<td><img src="https://skillicons.dev/icons?i=py,cpp,c,ts,js,html,css&theme=dark" alt="Python, C++, C, TypeScript, JavaScript, HTML, CSS"></td>
+<td><img src="https://skillicons.dev/icons?i=py,cpp,c,ts,js,html,css&theme=dark" alt="Python, C++, C, TypeScript, JavaScript, HTML, CSS"><br><sub><code>Python (Scientific Computing)</code> <code>Modern C++</code> <code>C</code> <code>TypeScript</code> <code>SQL</code></sub></td>
 </tr>
 <tr>
-<td><b>Deep Learning & CV</b></td>
-<td><img src="https://skillicons.dev/icons?i=pytorch,opencv,sklearn,numpy,pandas,tensorflow&theme=dark" alt="PyTorch, OpenCV, scikit-learn, NumPy, Pandas, TensorFlow"><br><sub><code>PyTorch Geometric</code> <code>Weights &amp; Biases</code> <code>Kendall Uncertainty</code> <code>PCGrad Surgery</code> <code>3D NIfTI / NiBabel</code></sub></td>
+<td><b>ML &amp; Deep Learning</b></td>
+<td><img src="assets/stack-mldl.svg" alt="PyTorch, Scikit-learn, OpenCV, NumPy, Pandas, Reinforcement Learning" height="48"><br><sub><code>PyTorch Geometric</code> <code>CNNs &amp; U-Net</code> <code>Graph Neural Networks</code> <code>Multi-Task Learning</code> <code>Reinforcement Learning (RL)</code> <code>Medical Vision</code></sub></td>
 </tr>
 <tr>
-<td><b>Web & Backend</b></td>
-<td><img src="https://skillicons.dev/icons?i=fastapi,react,tailwind,nodejs,express,streamlit&theme=dark" alt="FastAPI, React, Tailwind, Node.js, Express, Streamlit"></td>
+<td><b>Transformers &amp; LLMs</b></td>
+<td><img src="assets/stack-transformers.svg" alt="Hugging Face, Transformers, LLMs, LangChain, LlamaIndex" height="48"><br><sub><code>Hugging Face Transformers</code> <code>LLM Fine-Tuning (LoRA / QLoRA)</code> <code>RAG Systems</code> <code>Prompt Engineering</code> <code>Vector Embeddings</code> <code>LangChain &amp; LlamaIndex</code></sub></td>
 </tr>
 <tr>
-<td><b>Tools & DevOps</b></td>
-<td><img src="https://skillicons.dev/icons?i=docker,linux,git,github,vscode,bash&theme=dark" alt="Docker, Linux, Git, GitHub, VS Code, Bash"></td>
+<td><b>AI Engineering &amp; MLOps</b></td>
+<td><img src="assets/stack-aieng.svg" alt="FastAPI, Docker, Weights & Biases, MLflow, ONNX, Streamlit" height="48"><br><sub><code>FastAPI Microservices (5.3ms)</code> <code>Docker Deployment</code> <code>Weights &amp; Biases (W&amp;B)</code> <code>MLflow Tracking</code> <code>ONNX Runtime</code> <code>Vector Databases (Chroma / Pinecone)</code></sub></td>
 </tr>
 <tr>
-<td><b>Core Math & Theory</b></td>
-<td><code>Multi-Task Learning</code> <code>Graph Neural Networks</code> <code>Medical Image Segmentation</code> <code>Homoscedastic Uncertainty</code> <code>Gradient Surgery</code></td>
+<td><b>Data Analytics &amp; BI</b></td>
+<td><img src="assets/stack-data.svg" alt="Power BI, Pandas, NumPy, Jupyter, SQL" height="48"><br><sub><code>Data Cleaning &amp; Imputation</code> <code>Power BI Dashboards</code> <code>Exploratory Data Analysis (EDA)</code> <code>Feature Engineering</code> <code>Statistical Modeling</code></sub></td>
+</tr>
+<tr>
+<td><b>Web &amp; Backend</b></td>
+<td><img src="https://skillicons.dev/icons?i=fastapi,react,tailwind,nodejs,express&theme=dark" alt="FastAPI, React, Tailwind, Node.js, Express"><br><sub><code>RESTful APIs</code> <code>React / Next.js</code> <code>Interactive Clinical Dashboards</code> <code>TypeScript</code></sub></td>
+</tr>
+<tr>
+<td><b>Tools &amp; DevOps</b></td>
+<td><img src="https://skillicons.dev/icons?i=docker,linux,git,github,vscode,bash&theme=dark" alt="Docker, Linux, Git, GitHub, VS Code, Bash"><br><sub><code>Linux Environments</code> <code>Git &amp; GitHub Workflows</code> <code>CI/CD Pipelines</code> <code>Bash Scripting</code></sub></td>
+</tr>
+<tr>
+<td><b>Core Math &amp; Theory</b></td>
+<td><code>Machine Learning (ML)</code> <code>Deep Learning</code> <code>Reinforcement Learning</code> <code>Data Cleaning &amp; Preprocessing</code> <code>Data Visualization (Power BI)</code> <code>Multi-Task Learning</code> <code>Graph Neural Networks</code> <code>Medical Image Segmentation</code> <code>Homoscedastic Uncertainty</code> <code>Gradient Surgery</code></td>
 </tr>
 <tr>
 <td><b>Soft Skills</b></td>
-<td>Research synthesis · technical writing · experimental rigor · cross-functional collaboration</td>
+<td>Research synthesis · technical writing · experimental rigor · cross-functional collaboration · agile delivery</td>
 </tr>
 </table>
 
