@@ -18,12 +18,10 @@ track2_items = [
 ]
 
 def render_track(items, y, color, speed, reverse=False):
-    # calculate pill widths
     pills = []
     curr_x = 0
     gap = 12
     for item in items:
-        # approximate text length
         text_len = len(item)
         width = max(55, text_len * 9 + 26)
         pills.append((curr_x, width, item))
@@ -31,17 +29,15 @@ def render_track(items, y, color, speed, reverse=False):
     
     total_w = curr_x
     
-    # build SVG snippet for one loop
     def make_loop(offset_x):
         res = []
         for x, w, text in pills:
             px = x + offset_x
             escaped_text = text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
-            res.append(f'<rect x="{px}" y="{y}" width="{w}" height="34" rx="17" fill="{color}" fill-opacity=".10" stroke="{color}" stroke-opacity=".55"/>')
+            res.append(f'<rect x="{px}" y="{y}" width="{w}" height="34" rx="17" fill="{color}" fill-opacity=".12" stroke="{color}" stroke-opacity=".55"/>')
             res.append(f'<text x="{px + w/2}" y="{y + 22}" text-anchor="middle" font-family="\'SF Mono\',\'Fira Code\',Consolas,\'Liberation Mono\',monospace" font-size="13.5" fill="#eaf1fb">{escaped_text}</text>')
         return "".join(res)
     
-    # 3 repetitions so loop is smooth
     inner_g = make_loop(0) + f'<g transform="translate({total_w},0)">{make_loop(0)}</g>' + f'<g transform="translate({total_w*2},0)">{make_loop(0)}</g>'
     
     if reverse:
@@ -54,27 +50,34 @@ def render_track(items, y, color, speed, reverse=False):
 track1_svg = render_track(track1_items, 16, "#3b8ae6", 55, reverse=False)
 track2_svg = render_track(track2_items, 66, "#34d399", 70, reverse=True)
 
-svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="130" viewBox="0 0 1000 130" role="img" aria-label="Skills marquee: AI, Deep Learning, Transformers, LLMs, AI Engineering, ML, Data Analytics and MLOps tools">
+# Build bulletproof SVG with clipPath (100% supported everywhere) and edge fade gradient overlays
+svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="130" viewBox="0 0 1000 130" role="img" aria-label="Skills marquee: AI, Deep Learning, Transformers, LLMs, AI Engineering, ML, Data Analytics and MLOps tools">
 <defs>
-<linearGradient id="fm" x1="0" y1="0" x2="1" y2="0">
-<stop offset="0" stop-color="#000"/>
-<stop offset=".08" stop-color="#fff"/>
-<stop offset=".92" stop-color="#fff"/>
-<stop offset="1" stop-color="#000"/>
+<clipPath id="cpm">
+<rect width="1000" height="130" rx="18"/>
+</clipPath>
+<linearGradient id="fade-l" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#0e1a31" stop-opacity="1"/>
+<stop offset="1" stop-color="#0e1a31" stop-opacity="0"/>
 </linearGradient>
-<mask id="m">
-<rect width="1000" height="130" fill="url(#fm)"/>
-</mask>
+<linearGradient id="fade-r" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#0e1a31" stop-opacity="0"/>
+<stop offset="1" stop-color="#0e1a31" stop-opacity="1"/>
+</linearGradient>
 </defs>
 <rect width="1000" height="130" rx="18" fill="#0e1a31"/>
-<rect x=".75" y=".75" width="998.5" height="128.5" rx="17.5" fill="none" stroke="#223a61" stroke-width="1.5"/>
-<g mask="url(#m)">
+<g clip-path="url(#cpm)">
 {track1_svg}
 {track2_svg}
+<!-- Smooth edge fades -->
+<rect x="0" y="0" width="80" height="130" fill="url(#fade-l)"/>
+<rect x="920" y="0" width="80" height="130" fill="url(#fade-r)"/>
 </g>
+<rect x=".75" y=".75" width="998.5" height="128.5" rx="17.5" fill="none" stroke="#223a61" stroke-width="1.5"/>
 </svg>'''
 
-with open('assets/marquee.svg', 'w', encoding='utf-8') as f:
-    f.write(svg_content)
-
-print("Generated clean assets/marquee.svg successfully without flutter, tensorflow, otdr, ftth, mqtt!")
+# Save to both marquee.svg and skills-marquee.svg
+for out_path in ['assets/skills-marquee.svg', 'assets/marquee.svg']:
+    with open(out_path, 'w', encoding='utf-8') as f:
+        f.write(svg_content)
+    print(f"Generated {out_path} successfully!")

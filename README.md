@@ -162,7 +162,7 @@ $ traceroute --story aimen
 <img src="assets/h-04.svg" alt="04 Stack" width="100%">
 
 <div align="center">
-  <img src="assets/marquee.svg" alt="Skills: AI Engineering, Deep Learning, PyTorch, Transformers, LLMs, Reinforcement Learning, FastAPI, Docker, Power BI, Scikit-learn, and more" width="100%">
+  <img src="assets/skills-marquee.svg" alt="Skills: AI Engineering, Deep Learning, PyTorch, Transformers, LLMs, Reinforcement Learning, FastAPI, Docker, Power BI, Scikit-learn, and more" width="100%">
 </div>
 
 <br>
