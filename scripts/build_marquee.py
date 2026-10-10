@@ -36,8 +36,9 @@ def render_track(items, y, color, speed, reverse=False):
         res = []
         for x, w, text in pills:
             px = x + offset_x
+            escaped_text = text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
             res.append(f'<rect x="{px}" y="{y}" width="{w}" height="34" rx="17" fill="{color}" fill-opacity=".10" stroke="{color}" stroke-opacity=".55"/>')
-            res.append(f'<text x="{px + w/2}" y="{y + 22}" text-anchor="middle" font-family="\'SF Mono\',\'Fira Code\',Consolas,\'Liberation Mono\',monospace" font-size="13.5" fill="#eaf1fb">{text}</text>')
+            res.append(f'<text x="{px + w/2}" y="{y + 22}" text-anchor="middle" font-family="\'SF Mono\',\'Fira Code\',Consolas,\'Liberation Mono\',monospace" font-size="13.5" fill="#eaf1fb">{escaped_text}</text>')
         return "".join(res)
     
     # 3 repetitions so loop is smooth
