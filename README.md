@@ -1,254 +1,198 @@
 ﻿<div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:020c1b,50:0a192f,100:020c1b&height=180&section=header"/>
-  <br/>
-  <code>// hello, world. i'm</code>
-  <h1>Aimen Abdesselam</h1>
-  <p><b>AI &amp; Deep Learning Research Engineer · Computer Vision · Medical Imaging · GNNs</b></p>
-  <p><code>⚡ Seeking 6-Month Master's PFE (End-of-Studies Internship)</code> &nbsp;·&nbsp; <code>📅 Available Feb / Mar 2027</code> &nbsp;·&nbsp; <code>📍 Europe · Remote · France</code></p>
-  <br/>
-  <p>
-    <img src="https://img.shields.io/badge/DEGREE-M.Sc._AI_%26_Computer_Vision-64ffda?style=for-the-badge&labelColor=0a192f" alt="Degree">
-    <img src="https://img.shields.io/badge/TARGET-6--Month_Master's_PFE-38bdf8?style=for-the-badge&labelColor=0a192f" alt="Target PFE">
-    <img src="https://img.shields.io/badge/FOCUS-Medical_AI_%26_GNNs-a78bfa?style=for-the-badge&labelColor=0a192f" alt="Focus">
-    <img src="https://img.shields.io/badge/LANGUAGES-English_·_French_·_Arabic-fbbf24?style=for-the-badge&labelColor=0a192f" alt="Languages">
-  </p>
-  <br/>
-  <p>
-    <i>Developing multi-task deep learning architectures, 3D medical vision pipelines, and decentralized graph neural networks.<br/>
-    Final-year Master's student in AI &amp; Computer Vision, actively interviewing for a 6-month Master's PFE (End-of-Studies) starting Feb/Mar 2027 at European AI R&amp;D labs and tech innovators.</i>
-  </p>
-  <br/>
-  <table>
-    <tr>
-      <td align="center"><b>0.726</b><br/><sub>BraTS20 DICE</sub></td>
-      <td align="center"><b>0.962</b><br/><sub>TUMOR ROC-AUC</sub></td>
-      <td align="center"><b>-41%</b><br/><sub>LATENCY DROP</sub></td>
-      <td align="center"><b>5.3 ms</b><br/><sub>PER-SLICE INFERENCE</sub></td>
-      <td align="center"><b>7.77M</b><br/><sub>SHARED PARAMS (-50%)</sub></td>
-    </tr>
-  </table>
+  <img src="assets/banner.svg" alt="Abdesselam Aimen: AI & Deep Learning Researcher · Computer Vision Engineer · Medical Imaging · Graph Neural Networks" width="100%">
 </div>
 
-<br/>
+<p align="center">
+  <img src="https://img.shields.io/badge/ESI--SBA-IASD_AI_%26_Data_Science-3b8ae6?style=for-the-badge" alt="ESI-SBA IASD">
+  <img src="https://img.shields.io/badge/Degree-Master's_M2_Candidate-34d399?style=for-the-badge" alt="Master's Candidate">
+  <img src="https://img.shields.io/badge/Languages-EN_·_FR_·_AR-fbbf24?style=for-the-badge" alt="Languages">
+  <img src="https://img.shields.io/badge/Seeking-6--Month_Research_PFE-a78bfa?style=for-the-badge" alt="Seeking Research PFE">
+</p>
 
----
+<p align="center"><i>I develop multi-task deep learning architectures, 3D medical vision pipelines, and decentralized graph neural networks.<br>
+Final-year Master's student at ESI-SBA (Algeria 🇩🇿), actively interviewing for a 6-month AI Research PFE in Europe starting Feb/Mar 2027.</i></p>
 
-<br/>
+<img src="assets/stats.svg" alt="0.726 BraTS20 Dice · 0.962 Tumor ROC-AUC · -41% Latency drop · 5.3ms Per-slice inference · 7.77M Shared params" width="100%">
 
-## ✦ 01 // AI & DEEP LEARNING RESEARCH PROJECTS
+<br><br>
 
-<br/>
+<img src="assets/h-01.svg" alt="01 Showreel" width="100%">
 
-### 🧠 Multi-Task Brain Tumor Diagnosis on BraTS20
-`MEDICAL AI · COMPUTER VISION` &nbsp;·&nbsp; `[SOLO LEAD]` &nbsp;·&nbsp; `● PRODUCTION DEPLOYED`
+<div align="center">
+  <img src="assets/showreel.svg" alt="Showreel: BraTS20 Medical AI, GNN Drone Swarm, CINEMATCH RecSys, E-VENTI" width="100%">
+</div>
 
-> Joint **3D MRI segmentation and malignancy grade classification** on the BraTS 2020 multimodal benchmark (T1, T1ce, T2, FLAIR). Features a **shared dual-head U-Net** backbone with **Kendall uncertainty loss weighting** for dynamic task balancing and **PCGrad (Project Conflicting Gradients)** surgery to eliminate destructive gradient interference between segmentation and classification heads during backpropagation. Deployed as a full-stack, clinically-oriented web application.
+<p align="center">
+  <a href="https://multimodal-brain-tumor-diagnostics.vercel.app/"><img src="https://img.shields.io/badge/BraTS20_Clinical_App-open_app-34d399?style=flat-square&logo=vercel&logoColor=white" alt="BraTS20 Clinical App"></a>
+  <a href="https://drive.google.com/file/d/1BGBiM9NWthjeNTqe7vRC0PhU4XXtyTR6/view?usp=sharing"><img src="https://img.shields.io/badge/Research_Paper-read_pdf-a78bfa?style=flat-square&logo=googledocs&logoColor=white" alt="Research Paper"></a>
+  <a href="https://github.com/AimenAbdesslame/CINEMATCH_movie-recommender-system"><img src="https://img.shields.io/badge/CINEMATCH_RecSys-open_app-fbbf24?style=flat-square&logo=streamlit&logoColor=white" alt="CINEMATCH RecSys"></a>
+  <a href="https://github.com/AimenAbdesslame/E-VENTI_Front-End"><img src="https://img.shields.io/badge/E--VENTI_Platform-open_repo-3b8ae6?style=flat-square&logo=react&logoColor=white" alt="E-VENTI Platform"></a>
+</p>
 
-<br/>
+<br>
 
-| Metric | Score | Clinical & Computational Impact |
-| :--- | :---: | :--- |
-| **BraTS20 Mean Dice** | `0.726` | High-fidelity Whole Tumor delineation across multimodal MRI scans |
-| **Grade ROC-AUC** | `0.962` | Reliable distinction of High-Grade (HGG) vs Low-Grade (LGG) gliomas |
-| **Inference Latency** | `5.3 ms` | **-41% latency reduction** vs independent dual-network baselines |
-| **Parameter Efficiency** | `7.77M` | **50% parameter compression** via shared feature representation |
+<img src="assets/h-02.svg" alt="02 Projects" width="100%">
 
-<br/>
+<img src="assets/sub-research.svg" alt="Research and systems" width="100%">
 
-```
-Pipeline Flow:
-[4-Modality 3D MRI] ➔ [Shared U-Net Encoder] ┬─► [Head A: Segmentation] ─► Dice Loss ──┐
-                                             └─► [Head B: Classification] ─► BCE Loss ──┴─► [Kendall Weighting + PCGrad Surgery] ➔ [FastAPI Engine (5.3ms)] ➔ [React UI]
-```
-
-<br/>
+<a href="https://github.com/AimenAbdesslame/multimodal-brain-tumor-diagnostics"><img src="assets/c-brats.svg" alt="Multi-Task Brain Tumor Diagnosis on BraTS20" width="100%"></a>
 
 <details>
-<summary><b>▸ Architecture & Implementation Details</b></summary>
-<br/>
+<summary><b>How the research pipeline fits together</b> (architecture)</summary>
+<br>
 
-- **Data Engineering**: Processed 3D NIfTI neuroimaging volumes across four MRI modalities (T1, T1ce, T2, FLAIR) using NiBabel and NumPy, applying intensity z-score normalization and multimodal tensor fusion.
-- **Dual-Head Architecture**: Custom PyTorch U-Net with a shared 7.77M parameter encoder, routing latent representations into a Dice-optimized segmentation decoder and a dense binary classification head.
-- **Optimization Strategy**: Resolved gradient conflict vectors between heads using **PCGrad**; dynamically calibrated loss scales using homoscedastic uncertainty estimation (**Kendall et al.**).
-- **Production Stack**: Containerized via **Docker**, served via asynchronous **FastAPI** on Render, paired with an interactive **React** frontend on Vercel, and instrumented with **Weights & Biases (W&B)** for experiment tracking.
+```mermaid
+flowchart LR
+    M["🧠 4-Modality 3D MRI<br/>T1 · T1ce · T2 · FLAIR"] --> E
+    E["⚡ Shared U-Net Encoder<br/>7.77M parameters"] --> S["🎯 Decoder Head A<br/>Dice segmentation"]
+    E --> C["📊 Decoder Head B<br/>BCE tumor grade"]
+    S & C --> K{{"⚖️ Kendall Uncertainty<br/>+ PCGrad Surgery"}}
+    K --> F["🚀 FastAPI (5.3ms)<br/>Docker Container"]
+    F --> R["💻 React Clinical UI<br/>Vercel (Live)"]
+```
 
 </details>
 
-<br/>
-
-<p align="left">
-  <img src="https://img.shields.io/badge/PyTorch-0a192f?style=flat-square&logo=pytorch&logoColor=EE4C2C" alt="PyTorch">
-  <img src="https://img.shields.io/badge/Dual--Head_U--Net-0a192f?style=flat-square&logoColor=64ffda" alt="U-Net">
-  <img src="https://img.shields.io/badge/PCGrad_Surgery-0a192f?style=flat-square&logoColor=64ffda" alt="PCGrad">
-  <img src="https://img.shields.io/badge/Kendall_Uncertainty-0a192f?style=flat-square&logoColor=64ffda" alt="Kendall">
-  <img src="https://img.shields.io/badge/FastAPI-0a192f?style=flat-square&logo=fastapi&logoColor=009688" alt="FastAPI">
-  <img src="https://img.shields.io/badge/Docker-0a192f?style=flat-square&logo=docker&logoColor=2496ED" alt="Docker">
-  <img src="https://img.shields.io/badge/W%26B-0a192f?style=flat-square&logo=weightsandbiases&logoColor=FFBE00" alt="W&B">
-  <img src="https://img.shields.io/badge/React-0a192f?style=flat-square&logo=react&logoColor=61DAFB" alt="React">
+<a href="https://github.com/AimenAbdesslame/gnn_drone_project"><img src="assets/c-drone.svg" alt="GNN Drone Swarm Optimization" width="100%"></a>
+<p align="center">
+  <a href="https://github.com/AimenAbdesslame/gnn_drone_project"><img src="https://img.shields.io/badge/Technical_Report_&_Docs-181717?style=for-the-badge&logo=github&logoColor=white" alt="Technical Report & Docs"></a>
 </p>
 
-<br/>
+<table>
+<tr>
+<td width="50%" align="center">
+  <a href="https://github.com/AimenAbdesslame/CINEMATCH_movie-recommender-system"><img src="assets/c-cinematch.svg" alt="CINEMATCH RecSys" width="100%"></a><br>
+  <a href="https://github.com/AimenAbdesslame/CINEMATCH_movie-recommender-system"><img src="https://img.shields.io/badge/Live_App_Demo-3b8ae6?style=for-the-badge&logo=streamlit&logoColor=white" alt="Live App Demo"></a>
+</td>
+<td width="50%" align="center">
+  <a href="https://github.com/AimenAbdesslame/breast-cancer-unsupervised-app"><img src="assets/c-breast.svg" alt="Breast Cancer Clustering" width="100%"></a><br>
+  <a href="https://github.com/AimenAbdesslame/breast-cancer-unsupervised-app"><img src="https://img.shields.io/badge/Case_Study-a78bfa?style=for-the-badge&logo=jupyter&logoColor=white" alt="Case Study"></a>
+</td>
+</tr>
+<tr>
+<td align="center">
+  <a href="https://github.com/AimenAbdesslame/Linear_Regression_from_Scratch__No_ML_Libraries"><img src="assets/c-linreg.svg" alt="Linear Regression From Scratch" width="100%"></a><br>
+  <a href="https://github.com/AimenAbdesslame/Linear_Regression_from_Scratch__No_ML_Libraries"><img src="https://img.shields.io/badge/NumPy_First_Principles-fbbf24?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy First Principles"></a>
+</td>
+<td align="center">
+  <a href="https://github.com/AimenAbdesslame/Logistic_Regression_from_Scratch__No_ML_Libraries"><img src="assets/c-logreg.svg" alt="Logistic Regression From Scratch" width="100%"></a><br>
+  <a href="https://github.com/AimenAbdesslame/Logistic_Regression_from_Scratch__No_ML_Libraries"><img src="https://img.shields.io/badge/NumPy_First_Principles-fbbf24?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy First Principles"></a>
+</td>
+</tr>
+</table>
 
-<p align="left">
-  <a href="https://multimodal-brain-tumor-diagnostics.vercel.app"><img src="https://img.shields.io/badge/▲_LIVE_APP-64ffda?style=for-the-badge&labelColor=0a192f&logoColor=020c1b" alt="Live App"></a>&nbsp;&nbsp;
-  <a href="https://drive.google.com/file/d/1BGBiM9NWthjeNTqe7vRC0PhU4XXtyTR6/view?usp=sharing"><img src="https://img.shields.io/badge/📄_RESEARCH_PAPER-64ffda?style=for-the-badge&labelColor=0a192f&logoColor=020c1b" alt="Research Paper"></a>&nbsp;&nbsp;
-  <a href="https://github.com/AimenAbdesslame/multimodal-brain-tumor-diagnostics"><img src="https://img.shields.io/badge/💻_GITHUB_REPO-64ffda?style=for-the-badge&labelColor=0a192f&logoColor=020c1b" alt="Repository"></a>
-</p>
+<img src="assets/sub-web.svg" alt="Also shipped: web and product" width="100%">
 
-<br/>
+<table>
+<tr>
+<td width="50%" align="center">
+  <a href="https://github.com/AimenAbdesslame/E-VENTI_Front-End"><img src="assets/c-eventi.svg" alt="E-VENTI Front-End" width="100%"></a><br>
+  <a href="https://github.com/AimenAbdesslame/E-VENTI_Front-End"><img src="https://img.shields.io/badge/Frontend_Architecture-3b8ae6?style=for-the-badge&logo=react&logoColor=white" alt="Frontend Architecture"></a>
+</td>
+<td width="50%" align="center">
+  <a href="https://github.com/AimenAbdesslame/social_media_react"><img src="assets/c-social.svg" alt="Social Media React" width="100%"></a><br>
+  <a href="https://github.com/AimenAbdesslame/social_media_react"><img src="https://img.shields.io/badge/MUI_5_Interface-181717?style=for-the-badge&logo=mui&logoColor=white" alt="MUI 5 Interface"></a>
+</td>
+</tr>
+<tr>
+<td align="center">
+  <a href="https://github.com/AimenAbdesslame/Fitness_Supplements_app"><img src="assets/c-fitness.svg" alt="Fitness Supplements App" width="100%"></a><br>
+  <a href="https://github.com/AimenAbdesslame/Fitness_Supplements_app"><img src="https://img.shields.io/badge/Web_Application-34d399?style=for-the-badge&logo=javascript&logoColor=white" alt="Web Application"></a>
+</td>
+<td align="center">
+  <a href="https://github.com/AimenAbdesslame/numpy-100-exercises-solutions"><img src="assets/c-numpy.svg" alt="NumPy 100 & TCP" width="100%"></a><br>
+  <a href="https://github.com/AimenAbdesslame/Socket-TCP_networking"><img src="https://img.shields.io/badge/TCP_Networking-3b8ae6?style=for-the-badge&logo=typescript&logoColor=white" alt="TCP Networking"></a>
+</td>
+</tr>
+</table>
 
----
+<details>
+<summary><b>More experiments</b> · university labs, data pipelines & notebooks</summary>
+<br>
 
-<br/>
+- [`IASD-university-projects-Labs-S1`](https://github.com/AimenAbdesslame/IASD-university-projects-Labs-S1): S1 university curriculum labs, algorithmic foundations, probabilistic models
+- [`IASD-university-projects-Labs-S2`](https://github.com/AimenAbdesslame/IASD-university-projects-Labs-S2): S2 university labs in computer vision, deep learning pipelines, optimization
+- [`paris-2024-olympics-dashboard`](https://github.com/AimenAbdesslame/paris-2024-olympics-dashboard): Olympic games data analysis, metric exploration, interactive visualization
+- [`Socket-TCP_networking`](https://github.com/AimenAbdesslame/Socket-TCP_networking): Asynchronous client/server network transport layer in TypeScript
+- [`numpy-100-exercises-solutions`](https://github.com/AimenAbdesslame/numpy-100-exercises-solutions): Comprehensive 100-problem benchmark suite covering advanced vectorized operations
 
-### 🚁 GNN Drone Swarm Optimization
-`GRAPH NEURAL NETWORKS · MULTI-AGENT RL` &nbsp;·&nbsp; `[TEAM CO-AUTHOR]` &nbsp;·&nbsp; `● ACTIVE RESEARCH`
+</details>
 
-> Decentralized multi-agent spatial coordination using **Graph Neural Networks (GNN)** and **Message Passing Neural Networks (MPNN)** for autonomous drone swarms. Eliminates single-point-of-failure centralized controllers by modeling individual drones as graph nodes with continuous 3D spatial features (coordinates, velocity vectors, target headings) and dynamic communication topology as graph edges to learn robust trajectory coordination and collision avoidance.
+<br>
 
-<br/>
+<img src="assets/h-03.svg" alt="03 Journey" width="100%">
 
-| Component | Architecture & Method | Technical Highlight |
-| :--- | :--- | :--- |
-| **Dynamic Graph Topology** | Spatial k-NN Adjacency Matrix | Recalculated dynamically at each timestep under communication radius constraints |
-| **Relational Reasoning** | PyTorch Geometric Message Passing | Inter-agent localized state-embedding exchange for cooperative flight policies |
-| **Decentralized Policy** | Multi-Agent Reinforcement Learning | Zero-centralized coordinator; robust against single-agent communication dropout |
-| **Systems Interface** | C++ Low-Latency Bindings | High-throughput trajectory simulation and telemetry bridge |
+```text
+$ traceroute --story aimen
 
-<br/>
+ hop  where                                     what happened
+ ───  ────────────────────────────────────────  ──────────────────────────────────────────────
+  1   ESI-SBA · 2021 → now                      Integrated Preparatory Cycle & Engineering Degree
+  2   IASD Master's Track · 2025 → 2027         Specialization: Artificial Intelligence & Data Science
+  3   Foundations · 2024–25                     NumPy from-scratch ML, TCP sockets, 100 numerical labs
+  4   Full-Stack Systems · 2023                 Shipped E-VENTI, Social Media React, Fitness web apps
+  5   Team R&D · 2026                           GNN Drone Swarm Optimization: multi-agent spatial coordination
+  6   Solo Research Lead · 2026                 BraTS20 Dual-Head U-Net: Kendall uncertainty + PCGrad surgery
+  7   → you are here                            seeking 6-month Master's PFE in AI / Deep Learning (Feb/Mar 2027)
 
+ trace complete. destination reachable.
 ```
-Swarm Topology:
-[Drone N (Node)] ──(Dynamic Radio Edge)── [Drone M (Node)]
-       │                                         │
-       ▼                                         ▼
-[Spatial Feature Vector] ───────────────► [GNN Message Passing (PyG)] ──► [Decentralized Trajectory Policy]
-```
 
-<br/>
+<br>
 
-<p align="left">
-  <img src="https://img.shields.io/badge/PyTorch_Geometric-0a192f?style=flat-square&logo=pytorch&logoColor=EE4C2C" alt="PyG">
-  <img src="https://img.shields.io/badge/Graph_Neural_Networks-0a192f?style=flat-square&logoColor=64ffda" alt="GNN">
-  <img src="https://img.shields.io/badge/Message_Passing_Neural_Nets-0a192f?style=flat-square&logoColor=64ffda" alt="MPNN">
-  <img src="https://img.shields.io/badge/Multi--Agent_RL-0a192f?style=flat-square&logoColor=64ffda" alt="MARL">
-  <img src="https://img.shields.io/badge/C++_17-0a192f?style=flat-square&logo=cplusplus&logoColor=00599C" alt="C++">
-  <img src="https://img.shields.io/badge/NetworkX-0a192f?style=flat-square&logoColor=64ffda" alt="NetworkX">
-</p>
+<img src="assets/h-04.svg" alt="04 Stack" width="100%">
 
-<br/>
+<div align="center">
+  <img src="assets/marquee.svg" alt="Skills: Python, PyTorch, C++, TypeScript, FastAPI, Docker, OpenCV, React, NumPy, Scikit-learn, W&B and more" width="100%">
+</div>
 
-<p align="left">
-  <a href="https://github.com/AimenAbdesslame/gnn_drone_project"><img src="https://img.shields.io/badge/💻_GITHUB_REPO-64ffda?style=for-the-badge&labelColor=0a192f&logoColor=020c1b" alt="Repository"></a>&nbsp;&nbsp;
-  <a href="https://github.com/AimenAbdesslame/gnn_drone_project#readme"><img src="https://img.shields.io/badge/📑_TECHNICAL_DOCS-0a192f?style=for-the-badge&labelColor=0a192f&logoColor=64ffda" alt="Technical Docs"></a>
-</p>
+<br>
 
-<br/>
+<table>
+<tr>
+<td width="170"><b>Languages</b></td>
+<td><img src="https://skillicons.dev/icons?i=py,cpp,c,ts,js,html,css&theme=dark" alt="Python, C++, C, TypeScript, JavaScript, HTML, CSS"></td>
+</tr>
+<tr>
+<td><b>Deep Learning & CV</b></td>
+<td><img src="https://skillicons.dev/icons?i=pytorch,opencv,sklearn,numpy,pandas,tensorflow&theme=dark" alt="PyTorch, OpenCV, scikit-learn, NumPy, Pandas, TensorFlow"><br><sub><code>PyTorch Geometric</code> <code>Weights &amp; Biases</code> <code>Kendall Uncertainty</code> <code>PCGrad Surgery</code> <code>3D NIfTI / NiBabel</code></sub></td>
+</tr>
+<tr>
+<td><b>Web & Backend</b></td>
+<td><img src="https://skillicons.dev/icons?i=fastapi,react,tailwind,nodejs,express,streamlit&theme=dark" alt="FastAPI, React, Tailwind, Node.js, Express, Streamlit"></td>
+</tr>
+<tr>
+<td><b>Tools & DevOps</b></td>
+<td><img src="https://skillicons.dev/icons?i=docker,linux,git,github,vscode,bash&theme=dark" alt="Docker, Linux, Git, GitHub, VS Code, Bash"></td>
+</tr>
+<tr>
+<td><b>Core Math & Theory</b></td>
+<td><code>Multi-Task Learning</code> <code>Graph Neural Networks</code> <code>Medical Image Segmentation</code> <code>Homoscedastic Uncertainty</code> <code>Gradient Surgery</code></td>
+</tr>
+<tr>
+<td><b>Soft Skills</b></td>
+<td>Research synthesis · technical writing · experimental rigor · cross-functional collaboration</td>
+</tr>
+</table>
 
----
+<br>
 
-<br/>
+<img src="assets/h-05.svg" alt="05 Field notes" width="100%">
 
-## ✦ 02 // TECHNICAL SKILLS & STACK
+- 🧠 **BraTS 2020 Multi-Task Research Lead**: Dual-Head U-Net on 3D MRI, 0.726 Dice, 0.962 ROC-AUC, -41% latency (5.3ms/slice)
+- 🚁 **GNN Swarm Optimization Co-Author**: Decentralized multi-agent spatial coordination using PyTorch Geometric & MARL
+- 🎓 **ESI-SBA IASD Track**: M.Sc. in AI & Data Science, specialized in deep learning, medical computer vision & graph learning
+- 🔬 **First-Principles ML**: Vectorized gradient descent & classification engines written purely from scratch in NumPy
+- 🌍 **PFE Availability**: Actively seeking a 6-month Master's PFE (End-of-Studies Internship) in European R&D labs starting Feb/Mar 2027
 
-<br/>
+<br>
+
+<img src="assets/h-06.svg" alt="06 Connect" width="100%">
 
 <p align="center">
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch">
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI">
-  <img src="https://img.shields.io/badge/Weights_%26_Biases-FFBE00?style=for-the-badge&logo=weightsandbiases&logoColor=black" alt="W&B">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++">
-  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV">
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React">
+  <a href="https://www.linkedin.com/in/aimen-abdesselam-bab937223/"><img src="https://img.shields.io/badge/LinkedIn-Aimen_Abdesselam-3b8ae6?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://multimodal-brain-tumor-diagnostics.vercel.app/"><img src="https://img.shields.io/badge/Live_Portfolio_Demo-34d399?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio App"></a>
+  <a href="mailto:aimen.abdesselam@outlook.com"><img src="https://img.shields.io/badge/Email-Say_hello-a78bfa?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 </p>
 
-<br/>
-
-| Domain | Core Stack & Frameworks |
-| :--- | :--- |
-| **Deep Learning & CV** | `PyTorch` · `PyTorch Geometric` · `OpenCV` · `scikit-learn` · `NumPy` · `Pandas` · `W&B` |
-| **Backend & Systems** | `FastAPI` · `C++17` · `Docker` · `Linux / Bash` · `Git` · `REST APIs` |
-| **Frontend & Web** | `React` · `TypeScript` · `JavaScript` · `Tailwind CSS` · `Streamlit` |
-| **Architectural Methodologies** | `Multi-Task Learning` · `PCGrad Gradient Surgery` · `Kendall Uncertainty` · `Dual-Head U-Net` · `GNNs` |
-
-<br/>
-
-<p align="left">
-  <b>Deep Learning &amp; Computer Vision:</b><br/>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch">
-  <img src="https://img.shields.io/badge/PyTorch_Geometric-005571?style=flat-square&logo=pytorch&logoColor=white" alt="PyG">
-  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV">
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="sklearn">
-  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy">
-  <img src="https://img.shields.io/badge/Weights_%26_Biases-FFBE00?style=flat-square&logo=weightsandbiases&logoColor=black" alt="W&B">
-</p>
-
-<p align="left">
-  <b>Backend &amp; Systems:</b><br/>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
-  <img src="https://img.shields.io/badge/C++_17-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux">
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
-</p>
-
-<p align="left">
-  <b>Frontend &amp; Web:</b><br/>
-  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind">
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit">
-</p>
-
-<br/>
-
----
-
-<br/>
-
-## ✦ 03 // GITHUB ANALYTICS & ACTIVITY
-
-<br/>
-
-<div align="center">
-  <a href="https://github.com/AimenAbdesslame">
-    <img height="165" src="https://github-readme-stats.vercel.app/api?username=AimenAbdesslame&show_icons=true&hide_border=true&bg_color=020c1b&title_color=64ffda&icon_color=64ffda&text_color=8892b0" alt="GitHub Stats" />
-  </a>
-  <a href="https://github.com/AimenAbdesslame">
-    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AimenAbdesslame&layout=compact&langs_count=6&hide_border=true&bg_color=020c1b&title_color=64ffda&text_color=8892b0" alt="Top Languages" />
-  </a>
-  <br/><br/>
-  <a href="https://github.com/AimenAbdesslame">
-    <img width="60%" src="https://github-readme-streak-stats.herokuapp.com/?user=AimenAbdesslame&hide_border=true&background=020c1b&ring=64ffda&fire=64ffda&currStreakLabel=64ffda&stroke=233554&sideLabels=8892b0&dates=8892b0" alt="GitHub Streak" />
-  </a>
-</div>
-
-<br/>
-
----
-
-<br/>
-
-## ✦ 04 // CONTACT & SOCIAL LINKS
-
-<br/>
-
-<div align="center">
-  <h3><code>&gt;&gt; Seeking 6-Month Master's PFE (End-of-Studies Internship) · Starting Feb / Mar 2027</code></h3>
-  <p><b>Targeting European AI R&amp;D Labs &amp; Tech Scaleups · Open to Relocation across France / EU &amp; Remote</b></p>
-  <br/>
-  <p>
-    <a href="https://www.linkedin.com/in/aimen-abdesselam-bab937223/"><img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="https://multimodal-brain-tumor-diagnostics.vercel.app"><img src="https://img.shields.io/badge/PORTFOLIO_WEB_APP-64ffda?style=for-the-badge&logo=googlechrome&logoColor=020c1b" alt="Portfolio Web App"></a>&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="mailto:aimen.abdesselam@outlook.com"><img src="https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-  </p>
-  <br/>
-  <p>
-    <i>Thanks for scrolling.</i><br/>
-    <i>Let's build something that matters.</i>
-  </p>
-  <br/>
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:020c1b,50:0a192f,100:020c1b&height=80&section=footer"/>
-</div>
+<img src="assets/footer.svg" alt="Thanks for scrolling. Let's build something that connects." width="100%">

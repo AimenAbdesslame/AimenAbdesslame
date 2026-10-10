@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="56" viewBox="0 0 1000 56" role="img" aria-label="CONNECT"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3b8ae6"/><stop offset="1" stop-color="#34d399"/></linearGradient><filter id="gw" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect x="0" y="10" width="52" height="36" rx="10" fill="#0e1a31" stroke="#223a61" stroke-width="1.5"/><text x="26" y="34" text-anchor="middle" font-family="'SF Mono','Fira Code',Consolas,'Liberation Mono',monospace" font-size="15" font-weight="700" fill="#34d399">06</text>
+<text x="70" y="37" font-family="'Segoe UI',-apple-system,Helvetica,Arial,sans-serif" font-size="26" font-weight="800" letter-spacing="3" fill="#eaf1fb">CONNECT</text>
+<path d="M194 28 H990" stroke="#223a61" stroke-width="2" stroke-dasharray="2 7" stroke-linecap="round"/>
+<circle cx="990" cy="28" r="6" fill="#0e1a31" stroke="url(#lg)" stroke-width="2.5"/>
+<circle r="4" fill="#fbbf24" filter="url(#gw)"><animateMotion dur="3s" repeatCount="indefinite" path="M194 28 H990"/></circle>
+<circle r="3" fill="#34d399" filter="url(#gw)"><animateMotion dur="3s" begin="1.5s" repeatCount="indefinite" path="M194 28 H990"/></circle></svg>
