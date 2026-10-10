@@ -9,8 +9,8 @@
   <img src="https://img.shields.io/badge/Seeking-6--Month_Research_PFE-a78bfa?style=for-the-badge" alt="Seeking Research PFE">
 </p>
 
-<p align="center"><i>I develop multi-task deep learning architectures, 3D medical vision pipelines, and decentralized graph neural networks.<br>
-Final-year Master's student at ESI-SBA (Algeria 🇩🇿), actively interviewing for a 6-month AI Research PFE in Europe starting Feb/Mar 2027.</i></p>
+<p align="center"><i>I develop multi-task deep learning architectures, 2D medical vision pipelines, and decentralized graph neural networks.<br>
+Final-year Master's student at ESI-SBA (Algeria 🇩🇿), actively interviewing for a 6-month AI Research PFE starting Feb/Mar 2027.</i></p>
 
 <img src="assets/stats.svg" alt="0.726 BraTS20 Dice · 0.962 Tumor ROC-AUC · -41% Latency drop · 5.3ms Per-slice inference · 7.77M Shared params" width="100%">
 
@@ -43,7 +43,7 @@ Final-year Master's student at ESI-SBA (Algeria 🇩🇿), actively interviewing
 
 ```mermaid
 flowchart LR
-    M["🧠 4-Modality 3D MRI<br/>T1 · T1ce · T2 · FLAIR"] --> E
+    M["🧠 4-Modality 2D MRI<br/>"] --> E
     E["⚡ Shared U-Net Encoder<br/>7.77M parameters"] --> S["🎯 Decoder Head A<br/>Dice segmentation"]
     E --> C["📊 Decoder Head B<br/>BCE tumor grade"]
     S & C --> K{{"⚖️ Kendall Uncertainty<br/>+ PCGrad Surgery"}}
@@ -179,7 +179,7 @@ $ traceroute --story aimen
 
 <img src="assets/h-05.svg" alt="05 Field notes" width="100%">
 
-- 🧠 **BraTS 2020 Multi-Task Research Lead**: Dual-Head U-Net on 3D MRI, 0.726 Dice, 0.962 ROC-AUC, -41% latency (5.3ms/slice)
+- 🧠 **BraTS 2020 Multi-Task Research Lead**: Dual-Head U-Net on 2D MRI, 0.726 Dice, 0.962 ROC-AUC, -41% latency (5.3ms/slice)
 - 🚁 **GNN Swarm Optimization Co-Author**: Decentralized multi-agent spatial coordination using PyTorch Geometric & MARL
 - 🎓 **ESI-SBA IASD Track**: M.Sc. in AI & Data Science, specialized in deep learning, medical computer vision & graph learning
 - 🔬 **First-Principles ML**: Vectorized gradient descent & classification engines written purely from scratch in NumPy
