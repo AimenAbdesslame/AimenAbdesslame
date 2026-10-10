@@ -150,9 +150,10 @@ $ traceroute --story aimen
   2   IASD Master's Track · 2025 → 2027         Specialization: Artificial Intelligence & Data Science
   3   Foundations · 2024–25                     NumPy from-scratch ML, TCP sockets, 100 numerical labs
   4   Full-Stack Systems · 2023                 Shipped E-VENTI, Social Media React, Fitness web apps
-  5   Team R&D · 2026                           GNN Drone Swarm Optimization: multi-agent spatial coordination
-  6   Solo Research Lead · 2026                 BraTS20 Dual-Head U-Net: Kendall uncertainty + PCGrad surgery
-  7   → you are here                            seeking 6-month Master's PFE in AI / Deep Learning (Feb/Mar 2027)
+  5   EnoGeo internship  (Sonatrach subsidiary)· 2026                 Data analysis, pipeline & discovery of departements rely them with ai
+  6   Team R&D · 2026                           GNN Drone Swarm Optimization: multi-agent spatial coordination
+  7   Solo Research Lead · 2026                 BraTS20 Dual-Head U-Net: Kendall uncertainty + PCGrad surgery
+  8   → I am here                            seeking 6-month Master's PFE in AI / Deep Learning (Feb/Mar 2027)
 
  trace complete. destination reachable.
 ```
